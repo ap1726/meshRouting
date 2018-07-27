@@ -1,0 +1,138 @@
+* {
+    box-sizing:border-box;
+}
+html,body {
+    margin: 0 auto;
+    text-align: center;
+    background: #2E3436FF;
+    color:#ccc;
+}
+nav,section,footer {
+    min-height:100px;
+    background: #444;
+}
+nav {
+    min-height:30px;
+}
+.navi {
+    background: #888;
+    min-height: 30px;
+    color:#111;
+    border:2px solid #000;
+    border-width:1px 1px 0 1px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+#nav1{
+    background: #ccc;
+}
+footer{
+    padding: 30px;
+}
+article {
+    height: 600px;
+    color:#111;
+    position:relative;
+    padding: 10px;
+
+}
+#content1,
+#content2,
+#content3,
+#content4 {
+    background: #ccc;
+    border:2px solid #000;
+    border-width:0px 1px 1px 1px;
+    border-radius: 0px 10px 10px 10px;
+}
+#content2,
+#content3,
+#content4 {
+    display: none;    
+}
+label {
+    text-align: left;
+
+}
+label input {
+}
+
+/*============= отдельные элементы ==============*/
+
+#areaMeshNet, #areaMatrix, #areaTrafik, #setup{
+    position: absolute;
+    height: 90%;
+    width: 95%;
+    top:5%;
+    left:2.5%;
+    border-radius:10px;
+    background: #fff;
+
+}
+
+#result, #resultArea{
+    position: relative;
+    text-align: left;
+}
+#resultArea {
+    height: 95%;
+    width: 95%;
+    left:2.5%;
+    background: #fff;
+}
+
+#areaMeshNet:hover{
+    color:#ccc;
+}
+#setup{
+    font-size:1.3em;
+}
+.rowNumber,.colNumber {
+    display:inline-block;
+    width: 60px;
+}
+
+.inputMatrix, .inputTrafik {
+    width:60px;
+    font-size: 0.8em;
+}
+.nodeMesh {
+    width:30px;
+    height: 30px;
+    border-radius:100%;
+    background: #090;
+    position:absolute;
+    z-index: 2;
+    color:#000;
+}
+.buttonContainer, .buttonContainer2 {
+    position: absolute;
+    bottom: 0;
+    padding-left: 25%;
+    text-align: center;
+}
+#button1, #button2 {
+    background: #fff;
+}
+/*.lineNode {
+    display: block;
+    position: absolute;
+    height: 2px;
+    border:1px solid #000;
+    margin-left: 15px;
+    margin-top: 15px;
+    z-index: 1;
+}*/
+#line {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 100%;
+    height: 100%;
+    stroke: #F00;
+    stroke-width: 2px;
+}
+#count {
+    position:absolute;
+    left:-9999px;
+}
