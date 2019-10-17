@@ -4,7 +4,7 @@
 
 ### Технологии
 
-* Интерфейс: bootstrapp(немного), HTML&CSS, JavaScript.
+* Интерфейс: bootstrapp, HTML&CSS, JavaScript.
 
 * Отрисовка узлов и линий связи: JavaScript, JQuery, JCanvas.
 
